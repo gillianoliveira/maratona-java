@@ -1,6 +1,6 @@
 <h1>☕ Maratona Java Virada no Jiraya</h1>
 
-Source: [YouTube](https://www.youtube.com/watch?v=VKjFuX91G5Q&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW&index=1) <br />
+Source: [YouTube](https://bit.ly/46wWaFr) <br />
 Canal: DevDojo <br />
 Repo oficial: [https://github.com/devdojobr/maratona-java-virado-no-jiraya](https://github.com/devdojobr/maratona-java-virado-no-jiraya) <br />
 Status deste repositório: Em construção 🚧
@@ -16,10 +16,11 @@ As atividades contidas neste repositório não necessariamente foram passadas du
 
 # Conteúdo
 
-| #  | Aula                                             |Status|
-|--  |--                                                | :--: |
-|00  |00 - Maratona Java Virado No Jiraya - Bem-vindo   |✅    |
-|01  |01 - O que esperar do curso                       |✅    |
-|02  |02 - Como Java Funciona                           |✅    |
-|03  |03 - Fazendo o download da JDK 15                 |✅    |
-|04  |04 - Configurando variaveis de ambiente           |✅    |
+| Status | Aula                                             |
+|:--:      |--                                              |
+|✅      |00 - Maratona Java Virado No Jiraya - Bem-vindo   |
+|✅      |01 - O que esperar do curso                       |
+|✅      |02 - Como Java Funciona                           |
+|✅      |03 - Fazendo o download da JDK 15                 |
+|✅      |04 - Configurando variaveis de ambiente           |
+|✅      |05 - Executando compilação manualmente            |
