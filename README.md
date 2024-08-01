@@ -13,7 +13,7 @@ As atividades contidas neste repositório não necessariamente foram passadas du
 
 # Tecnologias
 * Visual Studio Code v.1.91.1
-* Java 22
+* Java 22.0.1
 
 # Conteúdo
 

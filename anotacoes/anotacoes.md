@@ -10,6 +10,10 @@
   - [Classe com argumentos via terminal](#classe-com-argumentos-via-terminal)
 - [IDE](#ide)
 - [Pacotes](#pacotes)
+- [Comentários](#comentários)
+  - [Comentário de 1 linha](#comentário-de-1-linha)
+  - [Comentário de múltiplas linhas](#comentário-de-múltiplas-linhas)
+  - [Javadoc - é uma forma de documentar o código](#javadoc---é-uma-forma-de-documentar-o-código)
 
 
 # Sobre o Java
@@ -147,3 +151,33 @@ A primeira linha de código do pacote que não seja comentário, deve ser o nome
 ```
 package com.gillianoliveira.maratonajava.introducao
 ```
+
+# Comentários
+
+Existem 3 formas de comentar:
+
+## Comentário de 1 linha
+```java
+// Comentário em uma única linha.
+```
+
+## Comentário de múltiplas linhas
+```java
+/*
+         * Comentário de
+         * múltiplas
+         * linhas.
+         */
+```
+
+## Javadoc - é uma forma de documentar o código
+Os métodos públicos devem ter um comentário javadoc. O comentário no código pode ficar desatualizado. Algumas empresas preferem não utilizar o javadoc. O javadoc possui dois ** logo no começo.
+
+```java
+/**
+* Documentação
+* Tem dois asteriscos no começo.
+* É também de múltiplas linhas
+*/
+```
+
