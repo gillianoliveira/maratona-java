@@ -18,7 +18,7 @@ Passo 2: Abra as Variáveis de ambiente do Windows.
 2. Você pode pedir para a Cortana abrir para você caso utilize a assistente virtual.
 3. Painel de Controle >> Sistema >> Configurações Avançadas do Sistema >> Em Propriedades do Sistema - guia Avançado >> Variáveis de Ambiente.
 
-Em variáveis de Ambiente você vai encontrar as Variáveis de Usuário e as variáveis globais. Vamos adicionar o Java as `Variáveis do Sistema` para que todos os usuários da máquina tenham acesso.
+Em variáveis de Ambiente você vai encontrar as Variáveis de Usuário e as Variáveis de Sistema(globais). Vamos adicionar o Java as `Variáveis do Sistema` para que todos os usuários da máquina tenham acesso.
 
 Passo 3: Em Variáveis do Sistema clique em `Novo`. Você vai digitar:
 ```txt

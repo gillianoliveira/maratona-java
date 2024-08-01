@@ -2,13 +2,17 @@
 
 Source: [YouTube](https://www.youtube.com/watch?v=VKjFuX91G5Q&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW&index=1) <br />
 Canal: DevDojo <br />
-Repo oficial: [https://github.com/devdojobr/maratona-java-virado-no-jiraya](https://github.com/devdojobr/maratona-java-virado-no-jiraya)
+Repo oficial: [https://github.com/devdojobr/maratona-java-virado-no-jiraya](https://github.com/devdojobr/maratona-java-virado-no-jiraya) <br />
 Status deste repositório: Em construção 🚧
 
 
 # Objetivo do repositório
 Registrar anotações e soluções para as atividades propostas ou criadas a partir do curso `Maratona Java Virada no Jiraya` do DevDojo disponível no YouTube.
 As atividades contidas neste repositório não necessariamente foram passadas durante o curso, mas podem ter sido criadas a partir dos conceitos falados durante as aulas. Visite o repositório oficial do curso caso queira o conteúdo original.
+
+# Tecnologias
+* Visual Studio Code v.1.91.1
+* Java 22
 
 # Conteúdo
 
