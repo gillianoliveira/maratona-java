@@ -8,6 +8,8 @@
   - [Recompilar classe via terminal](#recompilar-classe-via-terminal)
     - [Executar uma classe via terminal](#executar-uma-classe-via-terminal)
   - [Classe com argumentos via terminal](#classe-com-argumentos-via-terminal)
+- [IDE](#ide)
+- [Pacotes](#pacotes)
 
 
 # Sobre o Java
@@ -122,4 +124,26 @@ java nomeDaClasse
 ## Classe com argumentos via terminal
 ```java
 java MinhaClasse argumentoUm argumentoDois
+```
+
+# IDE
+
+IDE Sugerida: InteliJ IDEA: [https://bit.ly/4dib190](https://bit.ly/4dib190)
+
+# Pacotes
+
+Convenção:
+```txt
+dominiodositeinvertido.seuprojeto.nomedopacote
+```
+Imagine que o meu site é: www.gillianoliveira.com. Ficaria algo como:
+```
+com.gillianoliveira.maratonajava.introducao
+```
+No exemplo acima, `maratonajava` é o nome do projeto e `introducao` é o nome do pacote. `com.gillianoliveira` é o nome invertido do domínio.
+
+A primeira linha de código do pacote que não seja comentário, deve ser o nome do pacote. Por exemplo:
+
+```
+package com.gillianoliveira.maratonajava.introducao
 ```
