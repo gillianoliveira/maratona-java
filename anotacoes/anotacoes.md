@@ -1,5 +1,8 @@
 <h1>Java - anotações</h1>
 
+- [Atalhos úteis no VS CODE](#atalhos-úteis-no-vs-code)
+  - [Método main](#método-main)
+  - [System.out.println();](#systemoutprintln)
 - [Sobre o Java](#sobre-o-java)
   - [Java JDK](#java-jdk)
   - [Variáveis de Ambiente no Windows](#variáveis-de-ambiente-no-windows)
@@ -14,7 +17,45 @@
   - [Comentário de 1 linha](#comentário-de-1-linha)
   - [Comentário de múltiplas linhas](#comentário-de-múltiplas-linhas)
   - [Javadoc - é uma forma de documentar o código](#javadoc---é-uma-forma-de-documentar-o-código)
+- [Tipos Primitivos no Java](#tipos-primitivos-no-java)
+- [Variáveis](#variáveis)
+- [Concatenando texto + número](#concatenando-texto--número)
 
+
+# Atalhos úteis no VS CODE
+
+## Método main
+Para criar o método main em Java de forma mais rápida, dentro da classe ainda vazia digite `psvm` e selecione o método na lista.
+
+```java
+public class AulaTiposPrimitivos{
+    psvm
+}
+```
+![](img/psvm.png)
+
+Vai ficar assim:
+```java
+public class AulaTiposPrimitivos{
+    public static void main(String[] args) {
+
+    }
+}
+```
+
+## System.out.println();
+Para agilizar a escrita do `System.out.println();` digite `sysout`.
+![](img/sysout.png)
+```java
+public class AulaTiposPrimitivos{
+    public static void main(String[] args) {
+        // int, double, float, char, byte, short, long, boolean
+        // nomes de variáveis sempre usando camelCase
+        int idade = 10;
+        sysout
+    }
+}
+```
 
 # Sobre o Java
 
@@ -179,5 +220,39 @@ Os métodos públicos devem ter um comentário javadoc. O comentário no código
 * Tem dois asteriscos no começo.
 * É também de múltiplas linhas
 */
+```
+
+# Tipos Primitivos no Java
+
+São 8 tipos primitivos no Java. Todos são escritos em letras minúsculas. São eles:
+
+* int,
+* double,
+* float,
+* char,
+* byte,
+* short,
+* long,
+* boolean
+
+# Variáveis
+Nomes de variáveis começam são escritos com letra minúscula, mas quanto tiverem mais de uma palavra, devem ser escritos usando `camelCase`;
+```java
+int idadeDoCliente = 25;
+```
+Quando você atribui um valor a uma variável, o que acontece é que o programa vai alocar um espaço na memória para aquele valor.
+
+# Concatenando texto + número
+No Python você poderia usar vírgula, mas no Java isso ocasiona um erro de compilação. Utilize o operador `+`. Existem outra forma de fazer isso, mas por hora é isso.
+```java
+public class AulaTiposPrimitivos{
+    public static void main(String[] args) {
+        // int, double, float, char, byte, short, long, boolean
+        // nomes de variáveis sempre usando camelCase
+        int idade = 10;
+        System.out.println(idade);
+        System.out.println("A idade é " + idade);
+    }
+}
 ```
 

@@ -8,7 +8,7 @@ Status deste repositório: Em construção 🚧
 
 
 # Objetivo do repositório
-Registrar anotações e soluções para as atividades propostas ou criadas a partir do curso `Maratona Java Virada no Jiraya` do DevDojo disponível no YouTube.
+Registrar anotações e soluções para as atividades propostas ou criadas a partir do curso `Maratona Java Virado no Jiraya` do DevDojo disponível no YouTube.
 As atividades contidas neste repositório não necessariamente foram passadas durante o curso, mas podem ter sido criadas a partir dos conceitos falados durante as aulas. Visite o repositório oficial do curso caso queira o conteúdo original.
 
 # Tecnologias
@@ -17,17 +17,18 @@ As atividades contidas neste repositório não necessariamente foram passadas du
 
 # Conteúdo
 
-| Status | Aula                                             |
-|:--:     |--                                               |
-|✅      |00 - Maratona Java Virado No Jiraya - Bem-vindo   |
-|✅      |01 - O que esperar do curso                       |
-|✅      |02 - Como Java Funciona                           |
-|✅      |03 - Fazendo o download da JDK 15                 |
-|✅      |04 - Configurando variaveis de ambiente           |
-|✅      |05 - Executando compilação manualmente            |
-|✅      |06 - Download da IDE IntelliJ Community           |
-|✅      |07 - Conhecendo a IDE IntelliJ Community          |
-|✅      |08 - Organizando o código em pacotes              |
-|✅      |09 - Comentários                                  |
+| Status | Aula                                                |
+|:--:     |--                                                  |
+|✅      |00 - Maratona Java Virado No Jiraya - Bem-vindo      |
+|✅      |01 - O que esperar do curso                          |
+|✅      |02 - Como Java Funciona                              |
+|✅      |03 - Fazendo o download da JDK 15                    |
+|✅      |04 - Configurando variaveis de ambiente              |
+|✅      |05 - Executando compilação manualmente               |
+|✅      |06 - Download da IDE IntelliJ Community              |
+|✅      |07 - Conhecendo a IDE IntelliJ Community             |
+|✅      |08 - Organizando o código em pacotes                 |
+|✅      |09 - Comentários                                     |
+|✅      |10 - Tipos primitivos pt 01 - convenções de variáveis|
 
 
