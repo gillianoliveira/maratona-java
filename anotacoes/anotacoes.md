@@ -20,6 +20,9 @@
 - [Tipos Primitivos no Java](#tipos-primitivos-no-java)
 - [Variáveis](#variáveis)
 - [Concatenando texto + número](#concatenando-texto--número)
+- [Casting](#casting)
+- [String](#string)
+- [var no Java - variável sem declaração de tipo](#var-no-java---variável-sem-declaração-de-tipo)
 
 
 # Atalhos úteis no VS CODE
@@ -237,6 +240,8 @@ São 8 tipos primitivos no Java. Todos são escritos em letras minúsculas. São
 |boolean | booleano                     |1               |true ou false                                              |
 |char    | caracter                     |2               |\u0000 (ou 0) a  \uffff (ou 65,535)                        |
 
+Tipos primitivos são manipulados de maneira eficiente pelo compilador e pelo runtime do Java, permitindo otimizações que não seriam possíveis com tipos mais complexos.
+
 # Variáveis
 Nomes de variáveis começam são escritos com letra minúscula, mas quanto tiverem mais de uma palavra, devem ser escritos usando `camelCase`;
 ```java
@@ -258,3 +263,36 @@ public class AulaTiposPrimitivos{
 }
 ```
 
+# Casting
+
+
+# String
+String não é tipo primitivo. É um reference type. <br />
+Colocar o texto entre aspas duplas.<br />
+O nome String deve ser escrito com inicial maiúscula porque é uma classe.<br />
+```java
+public class AulaString {
+    public static void main(String[] args) {
+        String nome = "kfdkdkdkdk";
+
+    }
+
+}
+```
+
+O tamanho máximo de uma String que você pode criar dependerá da memória disponível no heap da Java Virtual Machine (JVM). ntativas de criar Strings muito grandes podem resultar em um java.lang.OutOfMemoryError se não houver memória suficiente.
+Existe um limite teórico para o tamanho de uma String em Java, que é determinado pelo limite do comprimento de um array de caracteres (char[]) usado internamente pela String.
+
+
+# var no Java - variável sem declaração de tipo
+Ao usar `var` no Java é possível atribuir um valor sem atribuir um tipo a uma variável.
+
+```java
+
+public class AulaString {
+    public static void main(String[] args) {
+        String nome = "kfdkdkdkdk";
+        var sobrenome = "Oliveira";  //Omitindo o tipo da variável
+    }
+}
+```
