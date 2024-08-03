@@ -226,14 +226,16 @@ Os métodos públicos devem ter um comentário javadoc. O comentário no código
 
 São 8 tipos primitivos no Java. Todos são escritos em letras minúsculas. São eles:
 
-* int,
-* double,
-* float,
-* char,
-* byte,
-* short,
-* long,
-* boolean
+| Tipo   |                              |Tamano em Bytes | Faixa de Valor                                            |
+|--      |--                            |--              |--                                                         |
+|byte    | numérico inteiro             |1               |-128 a 127                                                 |
+|short   | numérico inteiro             |2               |-32768 a 32767                                             |
+|int     | numérico inteiro             |4               |-2,147483,648 a 2,147,483,647                              |
+|long    | numérico inteiro             |8               |-9,223,372,036,854,775,808 a 9,223,372,036,854,775,807     |
+|float   | numérico com ponto flutuante |4               |1.4E-45 a  3.4E+38                                         |
+|double  | numérico com ponto flutuante |8               |4.9E-324 a 1.7E+308                                        |
+|boolean | booleano                     |1               |true ou false                                              |
+|char    | caracter                     |2               |\u0000 (ou 0) a  \uffff (ou 65,535)                        |
 
 # Variáveis
 Nomes de variáveis começam são escritos com letra minúscula, mas quanto tiverem mais de uma palavra, devem ser escritos usando `camelCase`;
