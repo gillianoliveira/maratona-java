@@ -8,8 +8,9 @@ Status deste repositório: Em construção 🚧
 
 
 # Objetivo do repositório
-Registrar anotações e soluções para as atividades propostas ou criadas a partir do curso `Maratona Java Virado no Jiraya` do DevDojo disponível no YouTube.
-As atividades contidas neste repositório não necessariamente foram passadas durante o curso, mas podem ter sido criadas a partir dos conceitos falados durante as aulas. Visite o repositório oficial do curso caso queira o conteúdo original.
+Registrar anotações e soluções para as atividades propostas ou criadas a partir do curso `Maratona Java Virado no Jiraya` do DevDojo disponível no YouTube. <br />
+As atividades contidas neste repositório não necessariamente foram passadas durante o curso, mas podem ter sido criadas a partir dos conceitos falados durante as aulas. <br />
+Visite o repositório oficial do curso caso queira o conteúdo original.
 
 # Tecnologias
 * Visual Studio Code v.1.91.1
