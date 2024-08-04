@@ -34,8 +34,8 @@ As atividades contidas neste repositório não necessariamente foram passadas du
 |✅      |12 - Tipos primitivos pt 03 - casting                        |
 |✅      |13 - Tipos primitivos pt 04 - Strings                        |
 |✅      |14 - Tipos primitivos pt 05 - Exercício                      |
-
-
+|✅      |15 - Operadores pt 01 - Aritiméticos                         |
+|✅      |16 - Operadores pt 02 - Relacionais                          |
 
 
 
