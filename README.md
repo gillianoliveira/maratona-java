@@ -37,7 +37,7 @@ Visite o repositório oficial do curso caso queira o conteúdo original.
 |✅      |14 - Tipos primitivos pt 05 - Exercício                      |
 |✅      |15 - Operadores pt 01 - Aritiméticos                         |
 |✅      |16 - Operadores pt 02 - Relacionais                          |
-
-
-
+|✅      |17 - Operadores pt 03 - Lógicos AND                          |
+|✅      |18 - Operadores pt 04 - Lógicos OR                           |
+|✅      |19 - Operadores pt 05 - Atribuição                           |
 
