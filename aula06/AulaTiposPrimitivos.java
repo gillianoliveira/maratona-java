@@ -1,4 +1,4 @@
-package aulaseis.exemplo;
+package aula06;
 
 public class AulaTiposPrimitivos{
     public static void main(String[] args) {
@@ -9,4 +9,3 @@ public class AulaTiposPrimitivos{
         System.out.println("A idade é " + idade);
     }
 }
-

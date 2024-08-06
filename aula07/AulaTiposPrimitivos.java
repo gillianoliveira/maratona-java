@@ -1,4 +1,4 @@
-package aulasete.exemplo;
+package aula07;
 
 public class AulaTiposPrimitivos {
     public static void main(String[] args) {

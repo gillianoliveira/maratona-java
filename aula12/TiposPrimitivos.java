@@ -1,4 +1,4 @@
-package auladoze;
+package aula12;
 
 // Aula sobre casting
 public class TiposPrimitivos {

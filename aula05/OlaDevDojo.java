@@ -1,4 +1,4 @@
-package aulacinco.exemplo;
+package aula05;
 
 
 public class OlaDevDojo {

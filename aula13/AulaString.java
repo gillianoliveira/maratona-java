@@ -1,4 +1,4 @@
-package aulatreze;
+package aula13;
 
 public class AulaString {
     public static void main(String[] args) {
