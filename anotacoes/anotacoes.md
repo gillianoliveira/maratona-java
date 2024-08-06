@@ -1,5 +1,6 @@
 <h1>Java - anotações</h1>
 
+- [Java - Trilha Oracle](#java---trilha-oracle)
 - [Atalhos úteis no VS CODE](#atalhos-úteis-no-vs-code)
   - [Método main](#método-main)
   - [System.out.println();](#systemoutprintln)
@@ -20,10 +21,24 @@
 - [Tipos Primitivos no Java](#tipos-primitivos-no-java)
 - [Variáveis](#variáveis)
 - [Concatenando texto + número](#concatenando-texto--número)
-- [Casting](#casting)
+- [Casting (Conversão de Tipos)](#casting-conversão-de-tipos)
+  - [Casting Implícito](#casting-implícito)
+  - [Casting Explícito](#casting-explícito)
+  - [Casting combinado com instanceof](#casting-combinado-com-instanceof)
 - [String](#string)
 - [var no Java - variável sem declaração de tipo](#var-no-java---variável-sem-declaração-de-tipo)
+- [Operadores](#operadores)
+  - [Operador de atribuição](#operador-de-atribuição)
+  - [Operadores de igualdade](#operadores-de-igualdade)
+  - [Operadores Aritiméticos](#operadores-aritiméticos)
+  - [Operadores Relacionais no Java](#operadores-relacionais-no-java)
+  - [Operadores Lógicos](#operadores-lógicos)
 
+
+# Java - Trilha Oracle
+Se você realmente quer um certificado, busque o único que interessa. Isso não foi falado durante o Maratona Java, mas mencionaram a certificação da Oracle no primeiro [Brejas e Bugs](https://bit.ly/4fwIvCv).
+
+Trilha: [https://education.oracle.com/learning-explorer](https://education.oracle.com/learning-explorer)
 
 # Atalhos úteis no VS CODE
 
@@ -263,7 +278,59 @@ public class AulaTiposPrimitivos{
 }
 ```
 
-# Casting
+# Casting (Conversão de Tipos)
+* Casting Implícito
+* Casting Explícito
+
+## Casting Implícito
+```java
+int num = 10;
+double d = num; // Casting implícito de int para double
+System.out.println(d); // Saída: 10.0
+```
+Exemplo de casting implícito entre Tipos de Referência (Classes e Interfaces):
+```java
+class Animal {
+    void makeSound() {
+        System.out.println("Animal sound");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Dog barks");
+    }
+}
+
+Dog dog = new Dog();
+Animal animal = dog; // Casting implícito de Dog para Animal
+animal.makeSound(); // Saída: Animal sound
+
+```
+
+## Casting Explícito
+```java
+int num = 10;
+double d = num; // Casting implícito de int para double
+System.out.println(d); // Saída: 10.0
+```
+
+Exemplo de casting explícito entre Tipos de Referência (Classes e Interfaces):
+```java
+Animal animal = new Dog();
+Dog dog = (Dog) animal; // Casting explícito de Animal para Dog
+dog.bark(); // Saída: Dog barks
+```
+
+## Casting combinado com instanceof
+Antes de fazer casting, especialmente em hierarquias de classes, é uma boa prática usar instanceof para verificar o tipo do objeto.
+```java
+Animal animal = new Dog();
+if (animal instanceof Dog) {
+    Dog dog = (Dog) animal;
+    dog.bark();
+}
+```
 
 
 # String
@@ -296,4 +363,47 @@ public class AulaString {
     }
 }
 ```
+# Operadores
+
+## Operador de atribuição
+| Operador | Operação                   | Exemplo            |
+|--        |--                          |--                  |
+|=         | Recebe                     | String A = "Maria" |
+
+
+## Operadores de igualdade
+O retorno é booleano.
+| Operador | Operação                    | Exemplo               |
+|--        |--                           |--                     |
+|==        | Compara se A é igual a B    | String A == A  (True) |
+|!=        | Compara se A é diferente de | String A != A  (False)|
+
+
+## Operadores Aritiméticos
+| Operador | Operação                   | Exemplo  |
+|--        |--                          |--        |
+|+         | Soma                       |A + B     |
+|+         | Subtração                  |A - B     |
+|*         | Multiplicação              |A * B     |
+|/         | Divisão                    |A / B     |
+|%         | Módulo (resto da divisão)  | A % B    |
+
+
+## Operadores Relacionais no Java
+O retorno é booleano.
+
+| Operador | Leitura          | Exemplo  |
+|--        |--                |--        |
+|>         | Maior que        |A > B     |
+|<         | Menor que        |A < B     |
+|>=        | Maior ou igual a |A >= B    |
+|<=        | Maior ou igual a |A <= B    |
+
+## Operadores Lógicos
+O retorno é booleano.
+
+| Operador | Leitura                                                        | Exemplo             |
+|--        |--                                                              |--                   |
+|&&        | E - avalia se as duas expressões são verdadeiras               |(5 + 5) && (5 - 3)   |
+|\|\|      | ou - avalia se pelo menos uma das duas expressões é verdadeira |(5 + 5) || (5 - 3)   |
 
