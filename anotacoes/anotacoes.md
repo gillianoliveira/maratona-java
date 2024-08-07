@@ -28,9 +28,8 @@
 - [String](#string)
 - [var no Java - variável sem declaração de tipo](#var-no-java---variável-sem-declaração-de-tipo)
 - [Operadores](#operadores)
-  - [Operador de atribuição](#operador-de-atribuição)
-  - [Operadores de igualdade](#operadores-de-igualdade)
-  - [Operadores Aritiméticos](#operadores-aritiméticos)
+  - [Operador de Atribuição](#operador-de-atribuição)
+  - [Operadores Aritméticos](#operadores-aritméticos)
   - [Operadores Relacionais no Java](#operadores-relacionais-no-java)
   - [Operadores Lógicos](#operadores-lógicos)
 
@@ -365,21 +364,13 @@ public class AulaString {
 ```
 # Operadores
 
-## Operador de atribuição
+## Operador de Atribuição
 | Operador | Operação                   | Exemplo            |
 |--        |--                          |--                  |
 |=         | Recebe                     | String A = "Maria" |
 
 
-## Operadores de igualdade
-O retorno é booleano.
-| Operador | Operação                    | Exemplo               |
-|--        |--                           |--                     |
-|==        | Compara se A é igual a B    | String A == A  (True) |
-|!=        | Compara se A é diferente de | String A != A  (False)|
-
-
-## Operadores Aritiméticos
+## Operadores Aritméticos
 | Operador | Operação                   | Exemplo  |
 |--        |--                          |--        |
 |+         | Soma                       |A + B     |
@@ -388,22 +379,32 @@ O retorno é booleano.
 |/         | Divisão                    |A / B     |
 |%         | Módulo (resto da divisão)  | A % B    |
 
+Existem métodos fornecidos pela classe Math que complementam os operadores aritméticos:
+
+|   Método | Operação                   | Exemplo                     |
+|--        |--                          |--                           |
+|pow()     | Potência                   | Math.pow(base, expoente)    |
+|sqrt()    | Raiz quadrada              | Math.sqrt(valor)            |
+
 
 ## Operadores Relacionais no Java
 O retorno é booleano.
 
-| Operador | Leitura          | Exemplo  |
-|--        |--                |--        |
-|>         | Maior que        |A > B     |
-|<         | Menor que        |A < B     |
-|>=        | Maior ou igual a |A >= B    |
-|<=        | Maior ou igual a |A <= B    |
+| Operador | Leitura                     | Exemplo               |
+|--        |--                           |--                     |
+|>         | Maior que                   |A > B                  |
+|<         | Menor que                   |A < B                  |
+|>=        | Maior ou igual a            |A >= B                 |
+|<=        | Maior ou igual a            |A <= B                 |
+|==        | Compara se A é igual a B    |String A == A  (True)  |
+|!=        | Compara se A é diferente de |String A != A  (False) |
+
 
 ## Operadores Lógicos
 O retorno é booleano.
 
-| Operador | Leitura                                                        | Exemplo             |
-|--        |--                                                              |--                   |
-|&&        | E - avalia se as duas expressões são verdadeiras               |(5 + 5) && (5 - 3)   |
-|\|\|      | ou - avalia se pelo menos uma das duas expressões é verdadeira |(5 + 5) || (5 - 3)   |
-
+| Operador | Nome          | Tipo     |Leitura                                                        | Exemplo             |
+|--        |--             |--        |--                                                             |--                   |
+|&&        |Conjunção      | Binário  |E - avalia se as duas expressões são verdadeiras               |(5 + 5) && (5 - 3)   |
+|\|\|      |Disjunção      | Binário  |ou - avalia se pelo menos uma das duas expressões é verdadeira |(5 + 5) || (5 - 3)   |
+|!         |Negação        | Unário   |não - inverte o valor da variável                              |                     |
